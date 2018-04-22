@@ -22,7 +22,7 @@ class VideoListItem extends Component {
     return (
       <div>
         <div>
-          <Link to="!" onClick={this.Clicked.bind(this, this.props.video)}>
+          <Link to="" onClick={this.Clicked.bind(this, this.props.video)}>
             <div
               className="card horizontal Card-container collection-item "
               style={{

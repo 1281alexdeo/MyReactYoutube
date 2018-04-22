@@ -9,13 +9,13 @@ const VideoDetail = ({ video }) => {
   return (
     <div>
       <div>
-        <div class="video-container ">
+        <div className="video-container ">
           <iframe
             width="553"
             height="380"
             src={`//www.youtube.com/embed/${id}`}
-            frameborder="0"
-            allowfullscreen
+            frameBorder="0"
+            allowFullScreen
           />
         </div>
         <div className="details left">

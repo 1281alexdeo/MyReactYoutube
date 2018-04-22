@@ -43,7 +43,7 @@ class App extends Component {
             textAlign: 'center',
             fontWeight: 'bold',
             fontFamily: 'cursive',
-            fontSize: 'x-large',
+            fontSize: 'xx-large',
             marginTop: '20px'
           }}
           className="App-intro">
@@ -54,18 +54,12 @@ class App extends Component {
             <SearchBar changeTerm={this.OnTermChange.bind(this)} />
           </div>
 
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              boxSizing: 'border-box'
-            }}
-            className="flex-container">
-            <div style={{ flex: '60%' }}>
+          <div className="flex-container">
+            <div className="video-detail">
               <VideoDetail video={this.state.selectedVideo} />
             </div>
 
-            <div style={{ flex: '40%' }}>
+            <div className="video-list">
               <VideoList
                 video={this.state.videos}
                 selectedVideo={this.onSelectedVideo.bind(this)}

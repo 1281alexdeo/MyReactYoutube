@@ -7,7 +7,7 @@ const VideoList = props => {
   const videos = props.video.map(video => {
     return (
       <div key={video.id.videoId}>
-        <Link to="" class="collection-item">
+        <Link to="" className="collection-item">
           <VideoListItem video={video} selectedVideo={props.selectedVideo} />
         </Link>
       </div>
