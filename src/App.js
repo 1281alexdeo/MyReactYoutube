@@ -47,7 +47,7 @@ class App extends Component {
             marginTop: '20px'
           }}
           className="App-intro">
-          My YouTube App
+          YouTube App
         </h3>
         <div key={this.state.videos.etag}>
           <div>
